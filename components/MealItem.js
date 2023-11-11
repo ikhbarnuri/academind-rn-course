@@ -1,4 +1,11 @@
-import { Image, Pressable, Text, View, StyleSheet, Platform } from 'react-native';
+import {
+  Image,
+  Pressable,
+  Text,
+  View,
+  StyleSheet,
+  Platform,
+} from 'react-native';
 
 const MealItem = ({ title, imageUrl, duration, complexity, affordability }) => {
   return (

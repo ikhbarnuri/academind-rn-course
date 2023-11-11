@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e8e28e6-1ea8-4d4f-9d4f-dd31603404e9" name="Changes" comment="feat: add more feature">
+    <list default="true" id="5e8e28e6-1ea8-4d4f-9d4f-dd31603404e9" name="Changes" comment="chore: change prettier print width">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/CategoryGridTile.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/CategoryGridTile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/MealItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/MealItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/dummy-data.js" beforeDir="false" afterPath="$PROJECT_DIR$/data/dummy-data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/CategoriesScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/CategoriesScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/MealsOverviewScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/MealsOverviewScreen.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +89,7 @@
       <workItem from="1699577856691" duration="7557000" />
       <workItem from="1699618456449" duration="9908000" />
       <workItem from="1699668266549" duration="6634000" />
-      <workItem from="1699674955472" duration="10158000" />
+      <workItem from="1699674955472" duration="11041000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add start screen">
       <option name="closed" value="true" />
@@ -112,7 +115,23 @@
       <option name="project" value="LOCAL" />
       <updated>1699674299348</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat: add categories screen and meals overview screen">
+      <option name="closed" value="true" />
+      <created>1699698257392</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1699698257395</updated>
+    </task>
+    <task id="LOCAL-00005" summary="chore: change prettier print width">
+      <option name="closed" value="true" />
+      <created>1699698551833</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1699698551833</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,6 +152,8 @@
     <MESSAGE value="feat: add start screen" />
     <MESSAGE value="feat: add game screen and game over screen" />
     <MESSAGE value="feat: add more feature" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add more feature" />
+    <MESSAGE value="feat: add categories screen and meals overview screen" />
+    <MESSAGE value="chore: change prettier print width" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: change prettier print width" />
   </component>
 </project>

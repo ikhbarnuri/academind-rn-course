@@ -2,21 +2,24 @@ import { Pressable, StyleSheet, Text, View, Platform } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 
 const CategoryGridTile = ({ title, color, onPress }) => {
-    const navigation = useNavigation();
+  const navigation = useNavigation();
 
-    return (
-        <View style={[styles.gridItem]}>
-            <Pressable
-                style={({ pressed }) => [styles.button, pressed ? styles.buttonPressed : null]}
-                android_ripple={{ color: '#ccc' }}
-                onPress={onPress}
-            >
-                <View style={[styles.innerContainer, { backgroundColor: color }]}>
-                    <Text style={styles.title}>{title}</Text>
-                </View>
-            </Pressable>
+  return (
+    <View style={[styles.gridItem]}>
+      <Pressable
+        style={({ pressed }) => [
+          styles.button,
+          pressed ? styles.buttonPressed : null,
+        ]}
+        android_ripple={{ color: '#ccc' }}
+        onPress={onPress}
+      >
+        <View style={[styles.innerContainer, { backgroundColor: color }]}>
+          <Text style={styles.title}>{title}</Text>
         </View>
-    );
+      </Pressable>
+    </View>
+  );
 };
 
 export default CategoryGridTile;
