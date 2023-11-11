@@ -18,6 +18,7 @@ export default function App() {
             headerTintColor: 'white',
             headerTitleAlign: 'center',
             contentStyle: { backgroundColor: '#3f2f25' },
+            animation: 'slide_from_right',
           }}
         >
           <Stack.Screen
@@ -30,6 +31,13 @@ export default function App() {
           <Stack.Screen
             name={'MealsOverview'}
             component={MealsOverviewScreen}
+            // options={({ route, navigation }) => {
+            //   const categoryId = route.params.categoryId;
+            //
+            //   return {
+            //     title: categoryId,
+            //   };
+            // }}
           />
         </Stack.Navigator>
       </NavigationContainer>
