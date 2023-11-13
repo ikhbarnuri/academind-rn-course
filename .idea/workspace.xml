@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e8e28e6-1ea8-4d4f-9d4f-dd31603404e9" name="Changes" comment="feat: add icon on drawer menu">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/MealItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/MealList/MealItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screens/FavoritesScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/FavoritesScreen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screens/MealDetailScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/MealDetailScreen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screens/MealsOverviewScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/MealsOverviewScreen.js" afterDir="false" />
-    </list>
+    <list default="true" id="5e8e28e6-1ea8-4d4f-9d4f-dd31603404e9" name="Changes" comment="feat: add redux for favorite meal" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,25 +39,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;meals-categories&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/ikhbarnuri/Development/excercises/rn-course/constants&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/usr/local/lib/node_modules/prettier&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.completion&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "meals-categories",
+    "last_opened_file_path": "/home/ikhbarnuri/Development/excercises/rn-course/constants",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "/usr/local/lib/node_modules/prettier",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/constants" />
@@ -173,7 +166,23 @@
       <option name="project" value="LOCAL" />
       <updated>1699865695703</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="feat: add context for favorite meal">
+      <option name="closed" value="true" />
+      <created>1699869192548</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1699869192548</updated>
+    </task>
+    <task id="LOCAL-00012" summary="feat: add redux for favorite meal">
+      <option name="closed" value="true" />
+      <created>1699874921656</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1699874921656</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,6 +210,8 @@
     <MESSAGE value="chore: change status bar color" />
     <MESSAGE value="feat: add drawer" />
     <MESSAGE value="feat: add icon on drawer menu" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add icon on drawer menu" />
+    <MESSAGE value="feat: add context for favorite meal" />
+    <MESSAGE value="feat: add redux for favorite meal" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add redux for favorite meal" />
   </component>
 </project>
