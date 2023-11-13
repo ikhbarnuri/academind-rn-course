@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e8e28e6-1ea8-4d4f-9d4f-dd31603404e9" name="Changes" comment="feat: add drawer">
+    <list default="true" id="5e8e28e6-1ea8-4d4f-9d4f-dd31603404e9" name="Changes" comment="feat: add icon on drawer menu">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/MealItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/MealList/MealItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/FavoritesScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/FavoritesScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/MealDetailScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/MealDetailScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/MealsOverviewScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/MealsOverviewScreen.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +72,7 @@
       <recent name="$PROJECT_DIR$/screens" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/components/MealList" />
       <recent name="$PROJECT_DIR$/components/ui" />
       <recent name="$PROJECT_DIR$/components" />
     </key>
@@ -160,7 +165,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699864369818</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="feat: add icon on drawer menu">
+      <option name="closed" value="true" />
+      <created>1699865695703</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1699865695703</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,6 +200,7 @@
     <MESSAGE value="chore: change screen animation" />
     <MESSAGE value="chore: change status bar color" />
     <MESSAGE value="feat: add drawer" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add drawer" />
+    <MESSAGE value="feat: add icon on drawer menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add icon on drawer menu" />
   </component>
 </project>
