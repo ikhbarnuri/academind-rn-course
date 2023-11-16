@@ -20,7 +20,7 @@ const ExpenseItem = ({ id, description, amount, date }) => {
       <View style={styles.expenseItem}>
         <View>
           <Text style={[styles.textBase, styles.description]}>
-            {description}p
+            {description}
           </Text>
           <Text style={styles.textBase}>{getFormattedDate(date)}</Text>
         </View>
